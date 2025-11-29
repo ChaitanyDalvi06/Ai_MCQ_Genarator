@@ -261,6 +261,4 @@ Contributions, issues, and feature requests are welcome!
 
 Made with ❤️ for learners 
 
-**[Report Bug](https://github.com/yourusername/ai-mcq-generator/issues)** • **[Request Feature](https://github.com/yourusername/ai-mcq-generator/issues)**
-
 </div>
