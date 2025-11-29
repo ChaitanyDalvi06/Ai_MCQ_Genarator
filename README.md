@@ -229,44 +229,6 @@ ollama list
 
 ---
 
-## 📚 API Reference
-
-### `POST /upload_pdf`
-Upload PDF and extract text
-
-**Response:**
-```json
-{
-  "text": "Extracted content...",
-  "pages": 5
-}
-```
-
-### `POST /generate_mcq`
-Generate MCQs from text
-
-**Request:**
-```json
-{
-  "text": "Your study material...",
-  "n_questions": 5,
-  "difficulty": "medium"
-}
-```
-
-**Response:**
-```json
-{
-  "mcqs": [
-    {
-      "question": "What is...?",
-      "options": ["Option A", "Option B", "Option C", "Option D"],
-      "answer": 2,
-      "explanation": "Detailed explanation..."
-    }
-  ]
-}
-```
 
 📖 **Interactive Docs:** Visit `http://localhost:8000/docs` after starting the server
 
@@ -279,11 +241,6 @@ Generate MCQs from text
 - 📦 **Smaller Batches**: Generate 5-10 questions at a time
 - 🔄 **Keep Ollama Running**: First generation loads model (slower), subsequent ones are fast
 
----
-
-## 📝 License
-
-MIT License - Free to use for any purpose
 
 ---
 
@@ -303,7 +260,7 @@ Contributions, issues, and feature requests are welcome!
 
 ### 🌟 Star this repo if you find it useful!
 
-Made with ❤️ for learners and educators
+Made with ❤️ for learners 
 
 **[Report Bug](https://github.com/yourusername/ai-mcq-generator/issues)** • **[Request Feature](https://github.com/yourusername/ai-mcq-generator/issues)**
 
